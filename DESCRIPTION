@@ -3,8 +3,13 @@ Title: Bachelor of Science
 Version: 0.0.0.9000
 Authors@R: person("Sonja", "Waldgruber", email = "sonja@waldgruber.at", role = c("aut", "cre"))
 Description: playground for thesis.
-Depends: R (>= 3.2.2)
-Imports: dplyr
+Depends:
+    R (>= 3.2.2)
+Imports:
+    dplyr
 License: MIT + file LICENSE
 LazyData: true
-Suggests: testthat, covr
+Suggests:
+    testthat,
+    covr
+RoxygenNote: 5.0.1
