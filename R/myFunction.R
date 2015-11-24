@@ -8,6 +8,7 @@
 #' @return data.frame with groups names in first column and average values per group in the second one
 #' @export
 #' @import dplyr
+#
 myFunction = function(values, groups){
   result = data.frame(value = values, group = groups) %>%
     group_by_('group') %>%
